@@ -1,5 +1,5 @@
 public class DriveFactory {
-    public static Driver Create(String type)throws Exception{
+    public static Driver create(String type)throws Exception{
         Driver result = null;
         if(type.equals("MySqlDriver")){
             result = new MySqlDriver();
